@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
-public class CalenderTesting {
+public class CalenderTest {
     WebDriver webDriver;
     @BeforeClass
     public void openSavvytimeHome()

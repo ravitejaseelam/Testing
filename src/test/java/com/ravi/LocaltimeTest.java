@@ -13,9 +13,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Timer {
+public class LocaltimeTest {
     WebDriver webDriver;
-
     @BeforeClass
     public void openSavvytimeHome()
     {
@@ -26,11 +25,13 @@ public class Timer {
         webDriver.get("https://savvytime.com/");
 
     }
-    @Test(description = "com.ravi.Timer is tested")
-        public void timer() throws InterruptedException {
-            webDriver.findElement(By.xpath("//nav[@id='main-menu']//a[@href='/timers']")).click();
-            List<WebElement> elements = webDriver.findElements(By.xpath("//div[@class='big-services-box col-xs-12 col-sm-6 ']"));
-            String place1 = "Timer";
-            Assert.assertTrue(elements.get(0).getText().contains(place1));
-        }
+    @Test(description ="Local time is tested")
+    public void localTime()  {
+        webDriver.findElement(By.xpath("//nav[@id='main-menu']//a[@href='/local']")).click();
+        webDriver.findElement(By.id("place-search")).sendKeys("Hyderabad");
+        webDriver.findElement(By.xpath("//a[@href='/local/india-hyderabad']")).click();
+        List<WebElement> elements = webDriver.findElements(By.xpath("//div[@class='content-block frame text-center']"));
+        String place1 = "Hyderabad";
+        Assert.assertTrue(elements.get(0).getText().contains(place1));
+    }
 }

@@ -2,37 +2,37 @@
 <suite name="example suite 1" verbose="1" parallel="tests">
     <test name="Regression suite 1" >
         <classes>
-            <class name="com.ravi.CalenderTesting"/>
+            <class name="com.ravi.CalenderTest"/>
         </classes>
     </test>
     <test name="Regression suite 2" >
         <classes>
-            <class name="com.ravi.ConverterSwapTesting"/>
+            <class name="com.ravi.ConverterSwapTest"/>
         </classes>
     </test>
     <test name="Regression suite 3" >
         <classes>
-            <class name="com.ravi.ConverterTesting"/>
+            <class name="com.ravi.ConverterTest"/>
         </classes>
     </test>
     <test name="Regression suite 4" >
         <classes>
-            <class name="com.ravi.LocaltimeTesting"/>
+            <class name="com.ravi.LocaltimeTest"/>
         </classes>
     </test>
     <test name="Regression suite 5" >
         <classes>
-            <class name="com.ravi.PermanentLink"/>
+            <class name="com.ravi.PermanentLinkTest"/>
         </classes>
     </test>
     <test name="Regression suite 6" >
         <classes>
-            <class name="com.ravi.Timer"/>
+            <class name="com.ravi.TimerTest"/>
         </classes>
     </test>
     <test name="Regression suite 7" >
         <classes>
-            <class name="com.ravi.TimeTesting"/>
+            <class name="com.ravi.TimeTest"/>
         </classes>
     </test>
 </suite>

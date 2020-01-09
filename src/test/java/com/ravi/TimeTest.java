@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class TimeTesting {
+public class TimeTest {
     WebDriver webDriver;
     @BeforeClass
     public void openSavvytimeHome()
