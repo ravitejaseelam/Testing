@@ -25,7 +25,7 @@ public class LocaltimeTesting {
         webDriver.get("https://savvytime.com/");
 
     }
-    @Test(description = "Local time is tested")
+    @Test(description ="Local time is tested")
     public void localTime()  {
         webDriver.findElement(By.xpath("//nav[@id='main-menu']//a[@href='/local']")).click();
         webDriver.findElement(By.id("place-search")).sendKeys("Hyderabad");
