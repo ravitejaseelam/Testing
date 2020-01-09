@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" parallel="tests">
+    <test name="Regression suite 1" >
+        <classes>
+            <class name="com.ravi.CalenderTesting"/>
+        </classes>
+    </test>
+    <test name="Regression suite 2" >
+        <classes>
+            <class name="com.ravi.ConverterSwapTesting"/>
+        </classes>
+    </test>
+    <test name="Regression suite 3" >
+        <classes>
+            <class name="com.ravi.ConverterTesting"/>
+        </classes>
+    </test>
+    <test name="Regression suite 4" >
+        <classes>
+            <class name="com.ravi.LocaltimeTesting"/>
+        </classes>
+    </test>
+    <test name="Regression suite 5" >
+        <classes>
+            <class name="com.ravi.PermanentLink"/>
+        </classes>
+    </test>
+    <test name="Regression suite 6" >
+        <classes>
+            <class name="com.ravi.Timer"/>
+        </classes>
+    </test>
+    <test name="Regression suite 7" >
+        <classes>
+            <class name="com.ravi.TimeTesting"/>
+        </classes>
+    </test>
+</suite>

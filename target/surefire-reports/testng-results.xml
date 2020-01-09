@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="37536" started-at="2020-01-09T12:16:09 IST" finished-at="2020-01-09T12:16:46 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="37536" started-at="2020-01-09T12:16:09 IST" finished-at="2020-01-09T12:16:46 IST">
+      <class name="com.ravi.AllTests">
+        <test-method status="PASS" signature="openSavvytimeHome()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="openSavvytimeHome" is-config="true" duration-ms="4534" started-at="2020-01-09T12:16:09 IST" finished-at="2020-01-09T12:16:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSavvytimeHome -->
+        <test-method status="PASS" signature="checkCalendar()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="checkCalendar" duration-ms="8728" started-at="2020-01-09T12:16:13 IST" description="Calender button is tested" finished-at="2020-01-09T12:16:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCalendar -->
+        <test-method status="PASS" signature="converterBasic()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="converterBasic" duration-ms="5470" started-at="2020-01-09T12:16:22 IST" description="Converter Option is tested" finished-at="2020-01-09T12:16:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterBasic -->
+        <test-method status="PASS" signature="converterLink()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="converterLink" duration-ms="5909" started-at="2020-01-09T12:16:27 IST" description="Permanent Link Creation is Tested " finished-at="2020-01-09T12:16:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterLink -->
+        <test-method status="PASS" signature="converterSwap()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="converterSwap" duration-ms="6737" started-at="2020-01-09T12:16:33 IST" description="Converter Swap Button is tested" finished-at="2020-01-09T12:16:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterSwap -->
+        <test-method status="PASS" signature="localTime()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="localTime" duration-ms="3021" started-at="2020-01-09T12:16:40 IST" description="Local time is tested" finished-at="2020-01-09T12:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localTime -->
+        <test-method status="PASS" signature="timeTesting()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="timeTesting" duration-ms="1448" started-at="2020-01-09T12:16:43 IST" description="Time is verified" finished-at="2020-01-09T12:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeTesting -->
+        <test-method status="PASS" signature="timer()[pri:0, instance:com.ravi.AllTests@28feb3fa]" name="timer" duration-ms="1646" started-at="2020-01-09T12:16:45 IST" description="Timer is tested" finished-at="2020-01-09T12:16:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timer -->
+      </class> <!-- com.ravi.AllTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
